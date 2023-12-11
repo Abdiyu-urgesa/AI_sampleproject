@@ -6,8 +6,8 @@ function App() {
       <header className="App-header">
         
         <p>
-          react-js app Ethiopian arteficial Intelligence instituteJ<br></br>
-          Test App updated two
+          react-js app Ethiopian arteficial Intelligence institute<br></br>
+          Test App updated twoooo
         </p>
         
           

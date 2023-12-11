@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myfirstpodrc
+  labels:
+    app: node
+spec: 
+  template:
+    metadata:
+      name: myfirstpod
+      labels:
+        app: node
+    spec: 
+      containers:
+        - name: myfirstpod
+          image: abdiyu/myimageonehub
+  replicas: 3
+      

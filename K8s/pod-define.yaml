@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myfirstpod
+  labels:
+    app: node
+spec: 
+  containers:
+    - name: myfirstpod
+      image: abdiyu/myimageonehub
+      ports: 
+        - containerPort: 3000

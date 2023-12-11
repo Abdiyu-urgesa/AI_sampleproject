@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myfirstpoddeploy
+  labels:
+    app: node
+spec: 
+  template:
+    metadata:
+      name: myfirstpod
+      labels:
+        app: node
+    spec: 
+      containers:
+        - name: myfirstpod
+          image: abdiyu/fromjenkins:latest
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node
+      
+

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myfirstpodrs
+  labels:
+    app: node
+spec: 
+  template:
+    metadata:
+      name: myfirstpod
+      labels:
+        app: node
+    spec: 
+      containers:
+        - name: myfirstpod
+          image: abdiyu/myimageonehub
+  replicas: 3
+  selector:
+    matchLabels:
+      app: node
+

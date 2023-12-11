@@ -16,6 +16,7 @@ spec:
           image: abdiyu/jenkinsbuild:latest
           ports:
             - containerPort: 3000
+          imagePullPolicy: Always
   replicas: 2
   selector:
     matchLabels:

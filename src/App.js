@@ -7,7 +7,7 @@ function App() {
         
         <p>
           react-js app Ethiopian arteficial Intelligence institute<br></br>
-          Test App updated twoooo
+          Test App updated abela update
         </p>
         
           

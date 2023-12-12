@@ -7,7 +7,7 @@ function App() {
         
         <p>
           react-js app Ethiopian arteficial Intelligence institute<br></br>
-          Test App updated just now!!!!!
+          present1111111111111111111111!!!!!
         </p>
         
           
